@@ -1,0 +1,16 @@
+server:
+  port: ${port:8888}
+
+spring:
+  profiles:
+    active: ${profile:dev}
+
+
+sms:
+  user:
+  pwd:
+
+email:
+  user:
+  pwd:
+
